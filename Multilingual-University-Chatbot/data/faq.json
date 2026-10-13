@@ -1,0 +1,116 @@
+[
+  {
+    "id": "faq-0001",
+    "question": {
+      "en": "What is the hostel fee?",
+      "hi": "हॉस्टल शुल्क क्या है?",
+      "ta": "விடுதி கட்டணம் என்ன?",
+      "te": "హాస్టల్ ఫీజు ఎంత?"
+    },
+    "answer": {
+      "en": "Hostel fee is ₹25,000 per semester. This includes accommodation, mess charges, and basic amenities. Payment can be made online or through bank draft.",
+      "hi": "हॉस्टल शुल्क प्रति सेमेस्टर ₹25,000 है। इसमें आवास, मेस शुल्क और बुनियादी सुविधाएं शामिल हैं। भुगतान ऑनलाइन या बैंक ड्राफ्ट के माध्यम से किया जा सकता है।",
+      "ta": "விடுதி கட்டணம் செமஸ்டருக்கு ₹25,000 ஆகும். இதில் தங்குமிடம், மெஸ் கட்டணம் மற்றும் அடிப்படை வசதிகள் அடங்கும். கட்டணம் ஆன்லைன் அல்லது வங்கி வரைவு மூலம் செலுத்தலாம்।",
+      "te": "హాస్టల్ ఫీజు సెమిస్టర్‌కు ₹25,000. ఇందులో వసతి, మెస్ ఛార్జీలు మరియు ప్రాథమిక సౌకర్యాలు ఉంటాయి. చెల్లింపు ఆన్‌లైన్ లేదా బ్యాంక్ డ్రాఫ్ట్ ద్వారా చేయవచ్చు."
+    },
+    "tags": ["hostel", "fees", "accommodation", "payment"],
+    "sources": ["prospectus-2025.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "student-affairs"}
+  },
+  {
+    "id": "faq-0002", 
+    "question": {
+      "en": "What are the admission requirements?",
+      "hi": "प्रवेश आवश्यकताएं क्या हैं?",
+      "ta": "சேர்க்கை தேவைகள் என்ன?",
+      "te": "ప్రవేశ అవసరాలు ఏమిటి?"
+    },
+    "answer": {
+      "en": "For undergraduate programs, you need 12th grade with minimum 60% marks. For postgraduate programs, a bachelor's degree with 55% marks is required. Entrance exam scores may also be considered.",
+      "hi": "अंडरग्रेजुएट कार्यक्रमों के लिए, आपको न्यूनतम 60% अंकों के साथ 12वीं कक्षा चाहिए। स्नातकोत्तर कार्यक्रमों के लिए, 55% अंकों के साथ स्नातक की डिग्री आवश्यक है। प्रवेश परीक्षा के अंकों पर भी विचार किया जा सकता है।",
+      "ta": "இளங்கலை திட்டங்களுக்கு, குறைந்தது 60% மதிப்பெண்களுடன் 12வாம் வகுப்பு தேவை. முதுகலை திட்டங்களுக்கு, 55% மதிப்பெண்களுடன் இளங்கலை பட்டம் தேவை. நுழைவு பரீக்षை மதிப்பெண்களும் விசரிக்கப்படலாம்।",
+      "te": "అండర్‌గ్రాడ్యుయేట్ ప్రోగ్రామ్‌లకు, మీకు కనీసం 60% మార్కులతో 12వ తరగతి అవసరం. పోస్ట్‌గ్రాడ్యుయేట్ ప్రోగ్రామ్‌లకు, 55% మార్కులతో బ్యాచిలర్ డిగ్రీ అవసరం. ప్రవేశ పరీక్ష స్కోర్‌లను కూడా పరిగణించవచ్చు."
+    },
+    "tags": ["admission", "requirements", "eligibility", "marks"],
+    "sources": ["admission-guide-2025.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "admissions"}
+  },
+  {
+    "id": "faq-0003",
+    "question": {
+      "en": "What courses are offered in Computer Science?",
+      "hi": "कंप्यूटर साइंस में कौन से कोर्स उपलब्ध हैं?",
+      "ta": "கணினி அறிவியலில் என்ன படிப்புகள் வழங்கப்படுகின்றன?",
+      "te": "కంప్యూటర్ సైన్స్‌లో ఏ కోర్సులు అందుబాటులో ఉన్నాయి?"
+    },
+    "answer": {
+      "en": "Our Computer Science program offers courses in Programming, Data Structures, Algorithms, Database Management, Operating Systems, Computer Networks, Software Engineering, Machine Learning, Artificial Intelligence, Web Development, and Mobile App Development. We also have specialization tracks in AI/ML and Cybersecurity.",
+      "hi": "हमारे कंप्यूटर साइंस कार्यक्रम में प्रोग्रामिंग, डेटा स्ट्रक्चर्स, एल्गोरिदम, डेटाबेस मैनेजमेंट, ऑपरेटिंग सिस्टम, कंप्यूटर नेटवर्क्स, सॉफ्टवेयर इंजीनियरिंग, मशीन लर्निंग, आर्टिफिशियल इंटेलिजेंस, वेब डेवलपमेंट, और मोबाइल ऐप डेवलपमेंट के कोर्स हैं।",
+      "ta": "எங்கள் கணினி அறிவியல் திட்டத்தில் நிரலாக்கம், தரவு கட்டமைப்புகள், அல்காரிதம்கள், தரவுத்தள மேலாண்மை, இயக்க அமைப்புகள், கணினி வலைப்பின்னல்கள், மென்பொருள் பொறியியல், இயந்திர கற்றல், செயற்கை நுண்ணறிவு போன்ற பாடங்கள் உள்ளன।",
+      "te": "మా కంప్యూటర్ సైన్స్ ప్రోగ్రామ్‌లో ప్రోగ్రామింగ్, డేటా స్ట్రక్చర్స్, అల్గారిథమ్స్, డేటాబేస్ మేనేజ్‌మెంట్, ఆపరేటింగ్ సిస్టమ్స్, కంప్యూటర్ నెట్‌వర్క్స్, సాఫ్ట్‌వేర్ ఇంజనీరింగ్, మెషిన్ లెర్నింగ్ మరియు ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ కోర్సులు ఉన్నాయి."
+    },
+    "tags": ["computer science", "courses", "curriculum", "programming", "AI", "ML"],
+    "sources": ["cs-curriculum-2025.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "computer-science"}
+  },
+  {
+    "id": "faq-0004",
+    "question": {
+      "en": "What are the library facilities?",
+      "hi": "पुस्तकालय की सुविधाएं क्या हैं?",
+      "ta": "நூலக வசதிகள் என்ன?",
+      "te": "లైబ్రరీ సౌకర్యాలు ఏమిటి?"
+    },
+    "answer": {
+      "en": "Our library is open 24/7 with over 100,000 books, digital resources, online databases, study spaces, and computer labs. Students get free access to all resources with their ID card. We also have group study rooms and quiet zones.",
+      "hi": "हमारी लाइब्रेरी 24/7 खुली रहती है जिसमें 100,000 से अधिक पुस्तकें, डिजिटल संसाधन, ऑनलाइन डेटाबेस, अध्ययन स्थान और कंप्यूटर लैब हैं। छात्रों को अपने ID कार्ड के साथ सभी संसाधनों तक मुफ्त पहुंच मिलती है।",
+      "ta": "எங்கள் நூலகம் 24/7 திறந்திருக்கிறது, இதில் 1,00,000க்கும் அதிகமான புस்தகங்கள், டிஜிட்டல் வளங்கள், ஆன்லைன் தரவுத்தளங்கள், அध்ययன இடங்கள் மற்றும் கணினி ஆய்வகங்கள் உள்ளன।",
+      "te": "మా లైబ్రరీ 24/7 తెరిచి ఉంటుంది, ఇందులో 1,00,000కు మించిన పుస్తకాలు, డిజిటల్ వనరులు, ఆన్‌లైన్ డేటాబేస్‌లు, అధ్యయన స్థలాలు మరియు కంప్యూటర్ ల్యాబ్‌లు ఉన్నాయి।"
+    },
+    "tags": ["library", "facilities", "books", "digital resources", "study"],
+    "sources": ["facilities-guide.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "library"}
+  },
+  {
+    "id": "faq-0005",
+    "question": {
+      "en": "How to apply for admission?",
+      "hi": "प्रवेश के लिए आवेदन कैसे करें?",
+      "ta": "சேர்க்கைக்கு எவ்வாறு விண்ணப்பிப்பது?",
+      "te": "ప్రవేశం కోసం ఎలా దరఖాస్తు చేసుకోవాలి?"
+    },
+    "answer": {
+      "en": "You can apply online through our university portal at www.university.edu/apply. Fill the application form, upload required documents (12th marksheet, photos, ID proof), pay application fee of ₹500, and submit before the deadline. You'll receive a confirmation email with your application number.",
+      "hi": "आप हमारे विश्वविद्यालय पोर्टल www.university.edu/apply के माध्यम से ऑनलाइन आवेदन कर सकते हैं। आवेदन फॉर्म भरें, आवश्यक दस्तावेज अपलोड करें, ₹500 आवेदन शुल्क का भुगतान करें।",
+      "ta": "நீங்கள் எங்கள் பல்கலைக்கழக போர்ட்டல் www.university.edu/apply மூலம் ஆன்லைனில் விண்ணப்பிக்கலாம். விண்ணப்ப படிவத்தை நிரப்பி, தேவையான ஆவணங்களை பதிவேற்றி, ₹500 விண்ணப்ப கட்டணம் செலுத்தவும்.",
+      "te": "మీరు మా విశ్వవిద్యాలయ పోర్టల్ www.university.edu/apply ద్వారా ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవచ్చు. దరఖాస్తు ఫారం నింపి, అవసరమైన పత్రాలను అప్‌లోడ్ చేసి, ₹500 దరఖాస్తు రుసుము చెల్లించండి."
+    },
+    "tags": ["admission", "application", "online", "portal", "documents"],
+    "sources": ["admission-guide-2025.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "admissions"}
+  },
+  {
+    "id": "faq-0006",
+    "question": {
+      "en": "What is the contact information?",
+      "hi": "संपर्क जानकारी क्या है?",
+      "ta": "தொடர்பு தகவல் என்ன?",
+      "te": "సంప్రదింపు సమాచారం ఏమిటి?"
+    },
+    "answer": {
+      "en": "You can contact us at: Phone: +91-1234567890, Email: info@university.edu, Address: University Campus, Education City, State 123456. Office hours: Monday to Friday, 9:00 AM to 5:00 PM. For emergencies, call our 24/7 helpline: +91-9876543210.",
+      "hi": "आप हमसे संपर्क कर सकते हैं: फोन: +91-1234567890, ईमेल: info@university.edu, पता: यूनिवर्सिटी कैंपस, एजुकेशन सिटी, राज्य 123456। कार्यालय समय: सोमवार से शुक्रवार, सुबह 9:00 बजे से शाम 5:00 बजे तक।",
+      "ta": "எங்களை தொடர்பு கொள்ள: தொலைபேசி: +91-1234567890, மின்னஞ்சல்: info@university.edu, முகவரி: பல்கலைக்கழக வளாகம், கல்வி நகரம், மாநிலம் 123456।",
+      "te": "మాతో సంప్రదించండి: ఫోన్: +91-1234567890, ఈమెయిల్: info@university.edu, చిరునామా: యూనివర్సిటీ క్యాంపస్, ఎడ్యుకేషన్ సిటీ, రాష్ట్రం 123456।"
+    },
+    "tags": ["contact", "phone", "email", "address", "office hours"],
+    "sources": ["contact-info.pdf"],
+    "last_updated": "2025-01-01",
+    "metadata": {"department": "general"}
+  }
+]

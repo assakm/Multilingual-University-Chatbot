@@ -1,0 +1,172 @@
+{
+    "info": {
+        "name": "RAG University Chatbot API",
+        "description": "API collection for testing the RAG chatbot endpoints",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        {
+            "key": "base_url",
+            "value": "http://localhost:5000",
+            "type": "string"
+        }
+    ],
+    "item": [
+        {
+            "name": "Health Check",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/health",
+                    "host": ["{{base_url}}"],
+                    "path": ["health"]
+                }
+            }
+        },
+        {
+            "name": "Chat - English",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"user_id\": \"test_user_1\",\n  \"message\": \"What is the hostel fee?\",\n  \"conversation_id\": \"conv_001\"\n}"
+                },
+                "url": {
+                    "raw": "{{base_url}}/chat",
+                    "host": ["{{base_url}}"],
+                    "path": ["chat"]
+                }
+            }
+        },
+        {
+            "name": "Chat - Hindi",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"user_id\": \"test_user_2\",\n  \"message\": \"हॉस्टल शुल्क क्या है?\",\n  \"conversation_id\": \"conv_002\"\n}"
+                },
+                "url": {
+                    "raw": "{{base_url}}/chat",
+                    "host": ["{{base_url}}"],
+                    "path": ["chat"]
+                }
+            }
+        },
+        {
+            "name": "Get All FAQs",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/admin/faq",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "faq"]
+                }
+            }
+        },
+        {
+            "name": "Add FAQ",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"question\": {\n    \"en\": \"What are the library hours?\"\n  },\n  \"answer\": {\n    \"en\": \"The library is open 24/7 for students with valid ID cards.\"\n  },\n  \"tags\": [\"library\", \"hours\", \"facilities\"],\n  \"metadata\": {\n    \"department\": \"library\"\n  }\n}"
+                },
+                "url": {
+                    "raw": "{{base_url}}/admin/faq",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "faq"]
+                }
+            }
+        },
+        {
+            "name": "Update FAQ",
+            "request": {
+                "method": "PUT",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n  \"id\": \"faq-0001\",\n  \"question\": {\n    \"en\": \"What is the updated hostel fee?\"\n  },\n  \"answer\": {\n    \"en\": \"The hostel fee is ₹30,000 per semester (updated rates).\"\n  },\n  \"tags\": [\"hostel\", \"fees\", \"accommodation\", \"updated\"],\n  \"metadata\": {\n    \"department\": \"student-affairs\"\n  }\n}"
+                },
+                "url": {
+                    "raw": "{{base_url}}/admin/faq",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "faq"]
+                }
+            }
+        },
+        {
+            "name": "Delete FAQ",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/admin/faq/faq-0001",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "faq", "faq-0001"]
+                }
+            }
+        },
+        {
+            "name": "Reindex Documents",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/admin/reindex",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "reindex"]
+                }
+            }
+        },
+        {
+            "name": "Get Admin Stats",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/admin/stats",
+                    "host": ["{{base_url}}"],
+                    "path": ["admin", "stats"]
+                }
+            }
+        },
+        {
+            "name": "Metrics (Prometheus)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{base_url}}/metrics",
+                    "host": ["{{base_url}}"],
+                    "path": ["metrics"]
+                }
+            }
+        }
+    ]
+}
